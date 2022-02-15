@@ -6,6 +6,7 @@ import { brandsRouter } from "./routes/brands.js";
 import { productsRouter } from "./routes/products.js";
 // import { auth } from "./middleware/auth.js";
 
+// Checking
 // setup express
 
 dotenv.config();
