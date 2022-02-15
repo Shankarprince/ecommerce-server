@@ -15,7 +15,7 @@ export const app = express();
 app.use(cors());
 app.use(express.json());
 
-const port = process.env.port;
+const port = process.env.port || 9000;
 
 app.listen(port, () => {
     console.log("Port Connected at " + port);
